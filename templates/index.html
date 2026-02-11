@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-center">
+            <img src="https://via.placeholder.com/90x120" alt="Profile" class="profile-img">
+            <h1>Your Name</h1>
+            <p class="role">Full Stack Developer</p>
+            <p class="hero-about">Passionate developer creating amazing web applications.</p>
+        </div>
+    </section>
+
+    <div class="card">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">Flask</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">HTML/CSS</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of your project</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Your Portfolio</p>
+    </footer>
+</body>
+</html>
